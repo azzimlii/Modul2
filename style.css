@@ -1,0 +1,130 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 205px;
+}
+.to-do-list{
+    border: 2px solid silver;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 336px;
+    height: 236px;
+    /* add */
+    /* height: 397px;  */
+    border-radius: 8px;
+}
+.yellow{
+    background-color: #FFDC40;
+    width: 336px;
+    height: 28px;
+    margin-bottom: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+body{
+    font-family: Arial;
+}
+h2{
+    font-style: bold;
+    margin-top: 0px;  
+}
+img{
+    width: 25px;
+    height: 15px;
+    margin-bottom: 14px;
+    position: relative;
+    left: 260px;
+}
+.input{
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.inputField{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.removeInput{
+    border-radius:100%;
+    border: 2px solid  silver;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 250px;
+    bottom:33px;
+    color: silver;
+}
+.removeInput:hover{
+    background-color: #833AE0;
+    color:white;
+    border: 2px solid #833AE0;
+}
+.btn{
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    border-radius: 28px;
+    border: none;
+    color:white;
+    display: flex;
+    align-items:center;
+    text-align: center;
+}
+.plusBtn{
+    background-color: #9953F1;
+    border-radius: 28px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    right: 10px;
+    }
+
+
+
+
+
+
+/* additional */
+/* ul{
+    list-style-type:  none;
+    margin: 0px;
+    padding: 10px 20px;
+    }
+li{
+    margin-bottom:22px;
+    width: 229px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    margin: 0px;
+}
+.lists{
+    border: 2px solid silver;
+    border-radius: 10px;
+    width: 286px;
+    height: 204px;
+}
+.btn{
+    margin-top: 18px;
+}
+.removeInputs{
+    border-radius:100%;
+    border: 2px solid  silver;
+    width: 20px;
+    height: 20px;
+    color: silver;
+} 
+.removeInputs:hover{
+    background-color: #833AE0;
+    color:white;
+    border: 2px solid #833AE0;
+}*/
